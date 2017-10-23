@@ -1,0 +1,7 @@
+1.- Añadir jgitflow-maven-plugin. Ver pom xml
+2.- En una ventana de comandos: git branch -avv
+3.- mvn jgitflow:release-start
+4.- git branch -avv
+5.- mvn jgitflow:release-finish
+6.- git branch -avv
+7.- git tag
