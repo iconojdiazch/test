@@ -5,3 +5,7 @@
 5.- mvn jgitflow:release-finish
 6.- git branch -avv
 7.- git tag
+8.- Escribir mvn clean cobertura:cobertura y observar la carpeta target\site
+    El comportamiento del plugin es muy distinto del que vimos en el proyecto
+    "EjemploSic". El plugin está colocado en esta ocasión fuera de la sección
+    reposting del pom.xml
